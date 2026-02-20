@@ -9,7 +9,7 @@ OPENAI_API_KEY = st.secrets["sk-proj-BRttn7HfJWA905NibULOS2nBgxul7P63TDBpeRFeYig
 
 # Replace the line below with your YouTube Embed Code from Phase 1
 VIDEO_EMBED_CODE = """
-<PASTE_YOUR_EMBED_CODE_HERE>
+<<iframe width="700" height="315" src="https://www.youtube.com/embed/GEYfaDTzGsI?si=8khPkkMGTwIxUQo3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>>
 """
 
 # Setup Page
@@ -231,5 +231,6 @@ if st.session_state.logged_in:
 
 else:
     st.info("👈 Please log in from the sidebar.")
+
 
 
