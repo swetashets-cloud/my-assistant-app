@@ -4,7 +4,7 @@ import time
 import base64
 
 # --- CONFIGURATION ---
-OPENAI_API_KEY = st.secrets"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"
+OPENAI_API_KEY = "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"
 
 # REPLACE THIS LINK WITH YOUR HUMAN IMAGE LINK FROM UNSPLASH/PExELS
 # Make sure it ends in .jpg or .png
@@ -260,3 +260,4 @@ if st.session_state.logged_in:
 
 else:
     st.info("👈 Please log in.")
+
