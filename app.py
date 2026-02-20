@@ -5,8 +5,7 @@ import base64
 
 # --- CONFIGURATION ---
 # The key is now pulled securely from Streamlit Secrets
-OPENAI_API_KEY = st.secrets["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
-"]
+OPENAI_API_KEY = st.secrets["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"]
 
 # Replace the line below with your YouTube Embed Code from Phase 1
 VIDEO_EMBED_CODE = """
@@ -232,4 +231,5 @@ if st.session_state.logged_in:
 
 else:
     st.info("👈 Please log in from the sidebar.")
+
 
