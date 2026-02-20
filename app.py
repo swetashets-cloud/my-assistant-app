@@ -4,8 +4,7 @@ import time
 import base64
 
 # --- CONFIGURATION ---
-OPENAI_API_KEY="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"
-
+OPENAI_API_KEY = "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"
 # REPLACE THIS LINK WITH YOUR HUMAN IMAGE LINK FROM UNSPLASH/PExELS
 # Make sure it ends in .jpg or .png
 AVATAR_IMAGE_URL = "https://ibb.co/4wq1gt9b"
@@ -260,6 +259,7 @@ if st.session_state.logged_in:
 
 else:
     st.info("👈 Please log in.")
+
 
 
 
